@@ -45,7 +45,7 @@ Un componente de Bootstrap es un elemento predefinido que se puede utilizar para
 
 ## Ejemplo de botones en Bootstrap
 
-```html
+
 <button type="button" class="btn btn-primary">Primary Button</button>
 <button type="button" class="btn btn-secondary">Secondary Button</button>
 <!-- Otros tipos de botones -->
