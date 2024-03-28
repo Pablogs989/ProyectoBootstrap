@@ -49,3 +49,36 @@ Un componente de Bootstrap es un elemento predefinido que se puede utilizar para
 <button type="button" class="btn btn-primary">Primary Button</button>
 <button type="button" class="btn btn-secondary">Secondary Button</button>
 <!-- Otros tipos de botones -->
+
+## Ejemplo de un Carousel de Bootstrap
+
+```html
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <!-- Más diapositivas -->
+  </div>
+</div>
+
+## Ejemplo de un NavBar de Bootstrap
+
+```html
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Enlaces del navbar -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
