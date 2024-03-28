@@ -52,7 +52,7 @@ Un componente de Bootstrap es un elemento predefinido que se puede utilizar para
 
 ## Ejemplo de un Carousel de Bootstrap
 
-```html
+
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -67,7 +67,6 @@ Un componente de Bootstrap es un elemento predefinido que se puede utilizar para
 
 ## Ejemplo de un NavBar de Bootstrap
 
-```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
