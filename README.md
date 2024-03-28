@@ -12,13 +12,13 @@ Sirve para:
 
 - **Facilidad de uso:** Bootstrap utiliza una sintaxis clara y consistente, lo que facilita su aprendizaje y uso para desarrolladores de todos los niveles de experiencia. Además, su documentación detallada y ejemplos prácticos ayudan a comprender rápidamente cómo implementar diferentes componentes y funcionalidades.
 
--**Consistencia en el diseño:** Bootstrap proporciona un conjunto coherente de estilos y componentes que garantizan una apariencia consistente en todo el sitio web. Esto ayuda a mantener una experiencia de usuario uniforme y profesional en todas las páginas y secciones del sitio.
+- **Consistencia en el diseño:** Bootstrap proporciona un conjunto coherente de estilos y componentes que garantizan una apariencia consistente en todo el sitio web. Esto ayuda a mantener una experiencia de usuario uniforme y profesional en todas las páginas y secciones del sitio.
 
--**Responsive Design:** Bootstrap está diseñado para ser totalmente compatible con el diseño responsive, lo que significa que los sitios web creados con Bootstrap se adaptarán automáticamente a diferentes tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio. Esto es crucial en la era actual, donde la mayoría de las personas acceden a internet desde una variedad de dispositivos.
+- **Responsive Design:** Bootstrap está diseñado para ser totalmente compatible con el diseño responsive, lo que significa que los sitios web creados con Bootstrap se adaptarán automáticamente a diferentes tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio. Esto es crucial en la era actual, donde la mayoría de las personas acceden a internet desde una variedad de dispositivos.
 
--**Amplia comunidad y soporte:** Bootstrap cuenta con una gran comunidad de desarrolladores y usuarios activos que comparten recursos, ejemplos de código y soluciones a problemas comunes. Esto proporciona un valioso soporte y ayuda a resolver cualquier problema que pueda surgir durante el desarrollo.
+- **Amplia comunidad y soporte:** Bootstrap cuenta con una gran comunidad de desarrolladores y usuarios activos que comparten recursos, ejemplos de código y soluciones a problemas comunes. Esto proporciona un valioso soporte y ayuda a resolver cualquier problema que pueda surgir durante el desarrollo.
 
--**Actualizaciones regulares:** El equipo de Bootstrap realiza actualizaciones periódicas del framework para incluir nuevas características, mejorar el rendimiento y corregir errores. Esto garantiza que Bootstrap esté siempre actualizado y alineado con las mejores prácticas de desarrollo web.
+- **Actualizaciones regulares:** El equipo de Bootstrap realiza actualizaciones periódicas del framework para incluir nuevas características, mejorar el rendimiento y corregir errores. Esto garantiza que Bootstrap esté siempre actualizado y alineado con las mejores prácticas de desarrollo web.
 
 ## ¿Por qué usar Bootstrap?
 
