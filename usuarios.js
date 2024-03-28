@@ -1,7 +1,3 @@
-const container2 = document.querySelector('.container')
-
-let usersArray2 = JSON.parse(localStorage.getItem('users')) || [];
-
 function readUsers() {
     for (const user of usersArray) {
         container.innerHTML += `
