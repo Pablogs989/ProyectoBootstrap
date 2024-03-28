@@ -46,7 +46,7 @@ Puedes implementar Bootstrap descargando los archivos desde el sitio web oficial
 
 ## ¿Se puede implementar responsive con Bootstrap?
 
-Sí, Bootstrap está diseñado específicamente para crear sitios web responsivos. Esto se logra utilizando su sistema de rejilla (grid system) y clases de utilidad que permiten adaptar el diseño y los componentes a diferentes tamaños de pantalla.
+Bootstrap está diseñado específicamente para crear sitios web responsivos. Esto se logra utilizando su sistema de rejilla (grid system) y clases de utilidad que permiten adaptar el diseño y los componentes a diferentes tamaños de pantalla.
 
 ```html
  <div class="container">
@@ -62,9 +62,29 @@ Sí, Bootstrap está diseñado específicamente para crear sitios web responsivo
     </div>
   </div>
 ```
+
 ## Componentes de Bootstrap
 
 Un componente de Bootstrap es un elemento predefinido que se puede utilizar para construir interfaces web de manera rápida y sencilla. Por ejemplo, botones, formularios, barras de navegación, etc.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de botón en Bootstrap</title>
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Botón primario de Bootstrap -->
+  <button type="button" class="btn btn-primary">Botón primario</button>
+  <!-- Botón secundario de Bootstrap -->
+  <button type="button" class="btn btn-secondary">Botón secundario</button>
+</body>
+</html>
+```
 
 ## Tipos de diseno bootstrap
 Bootstrap ofrece una variedad de diseños predefinidos que pueden adaptarse a diferentes necesidades y estilos de diseño. A continuación, describo algunos de los tipos de diseños más comunes que se pueden implementar fácilmente con Bootstrap:
@@ -83,7 +103,29 @@ Bootstrap ofrece una variedad de diseños predefinidos que pueden adaptarse a di
 
 Estos son solo algunos ejemplos de los tipos de diseños que se pueden crear con Bootstrap. La flexibilidad y versatilidad del framework permiten una amplia variedad de diseños y estilos, lo que lo convierte en una herramienta poderosa para el desarrollo web.
 
-## Ejemplo de botones en Bootstrap
+## Botones en Bootstrap
+
+Bootstrap ofrece una variedad de estilos de botones para adaptarse a diferentes necesidades de diseño y funcionalidad. Aquí tienes algunos de los tipos de botones más comunes en Bootstrap:
+
+- **Botón Primario (btn-primary):** Este botón se utiliza para acciones principales o destacadas en una página web. Tiene un color de fondo distintivo para llamar la atención del usuario.
+
+- **Botón Secundario (btn-secondary):** Este botón se utiliza para acciones secundarias o menos importantes. Tiene un color de fondo más suave que el botón primario.
+
+- **Botón de Éxito (btn-success):** Se utiliza para indicar una acción exitosa o positiva, como enviar un formulario correctamente.
+
+- **Botón de Peligro (btn-danger):** Se utiliza para indicar una acción peligrosa o que puede tener consecuencias negativas, como eliminar un elemento.
+
+- **Botón de Advertencia (btn-warning):** Se utiliza para indicar una advertencia o una situación de precaución, como una operación que puede tener resultados inesperados.
+
+- **Botón de Información (btn-info):** Se utiliza para proporcionar información adicional o contextual al usuario.
+
+- **Botón de Luz (btn-light):** Este botón tiene un aspecto más suave y se utiliza para acciones secundarias o para situaciones donde se necesita un botón menos llamativo.
+
+- **Botón Oscuro (btn-dark):** Se utiliza para acciones secundarias o como alternativa a los botones primarios en un diseño con fondo claro.
+
+-- **Botón Transparente (btn-transparent):** Este botón no tiene color de fondo y se utiliza para integrarse en diseños donde se desea un aspecto más sutil.
+
+Estos son solo algunos ejemplos de los tipos de botones que ofrece Bootstrap. Además de estos, Bootstrap también proporciona estilos de botones de enlace (btn-link) y botones de contorno (btn-outline-primary, btn-outline-secondary, etc.), que son versiones sin fondo de los botones regulares.
 
 ```html
 <button type="button" class="btn btn-primary">Primary Button</button>
