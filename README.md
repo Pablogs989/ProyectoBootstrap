@@ -1,4 +1,4 @@
-# Bootstrap
+# Bootstrap:
 
 Bootstrap es un framework de código abierto desarrollado por Twitter que facilita la creación de interfaces web y aplicaciones. Proporciona una serie de herramientas, componentes predefinidos y estilos CSS para agilizar el desarrollo web.
 
@@ -18,7 +18,7 @@ Sirve para:
 
 - **Actualizaciones regulares:** El equipo de Bootstrap realiza actualizaciones periódicas del framework para incluir nuevas características, mejorar el rendimiento y corregir errores. Esto garantiza que Bootstrap esté siempre actualizado y alineado con las mejores prácticas de desarrollo web.
 
-## Características de Bootstrap
+## Características de Bootstrap:
 
 - **Grid system:** Permite organizar y alinear el contenido en filas y columnas.
 - **Componentes predefinidos:** Ofrece una variedad de elementos como botones, formularios, barras de navegación, etc.
@@ -26,7 +26,7 @@ Sirve para:
 - **Responsive Design:** Permite crear diseños que se adaptan automáticamente a diferentes dispositivos.
 - **Documentación completa:** Incluye una documentación detallada que facilita su aprendizaje y uso.
 
-## Ventajas y desventajas de usar Bootstrap
+## Ventajas y desventajas de usar Bootstrap:
 
 **Ventajas:**
 - Rapidez en el desarrollo.
@@ -40,7 +40,7 @@ Sirve para:
 - Archivos grandes si se utilizan todas las características, lo que puede afectar al rendimiento.
 - Requiere aprender su sintaxis y estructura.
 
-## Cómo instalar o implementar Bootstrap en mi proyecto
+## Cómo instalar o implementar Bootstrap en mi proyecto:
 
 Puedes implementar Bootstrap descargando los archivos desde el sitio web oficial de Bootstrap (https://getbootstrap.com/) o utilizando un gestor de paquetes como npm o yarn. También puedes enlazar los archivos CSS y JavaScript de Bootstrap directamente desde un CDN.
 
@@ -63,7 +63,7 @@ Bootstrap está diseñado específicamente para crear sitios web responsivos. Es
   </div>
 ```
 
-## Componentes de Bootstrap
+## Componentes de Bootstrap:
 
 Un componente de Bootstrap es un elemento predefinido que se puede utilizar para construir interfaces web de manera rápida y sencilla. Por ejemplo, botones, formularios, barras de navegación, etc.
 
@@ -86,7 +86,8 @@ Un componente de Bootstrap es un elemento predefinido que se puede utilizar para
 </html>
 ```
 
-## Tipos de diseno bootstrap
+## Tipos de diseno bootstrap:
+
 Bootstrap ofrece una variedad de diseños predefinidos que pueden adaptarse a diferentes necesidades y estilos de diseño. A continuación, describo algunos de los tipos de diseños más comunes que se pueden implementar fácilmente con Bootstrap:
 
  - **Diseño de rejilla (Grid Layout):** El sistema de rejilla de Bootstrap es una de las características más destacadas del framework. Permite dividir la página en filas y columnas, lo que facilita la creación de diseños flexibles y adaptables a diferentes tamaños de pantalla. Esto permite organizar el contenido de manera efectiva y mantener una apariencia consistente en todos los dispositivos.
@@ -103,7 +104,7 @@ Bootstrap ofrece una variedad de diseños predefinidos que pueden adaptarse a di
 
 Estos son solo algunos ejemplos de los tipos de diseños que se pueden crear con Bootstrap. La flexibilidad y versatilidad del framework permiten una amplia variedad de diseños y estilos, lo que lo convierte en una herramienta poderosa para el desarrollo web.
 
-## Botones en Bootstrap
+## Botones en Bootstrap:
 
 Bootstrap ofrece una variedad de estilos de botones para adaptarse a diferentes necesidades de diseño y funcionalidad. Aquí tienes algunos de los tipos de botones más comunes en Bootstrap:
 
@@ -132,7 +133,7 @@ Estos son solo algunos ejemplos de los tipos de botones que ofrece Bootstrap. Ad
 <button type="button" class="btn btn-secondary">Secondary Button</button>
 <!-- Otros tipos de botones -->
 ```
-## Carousel de Bootstrap 
+## Carousel de Bootstrap:
 
 El Carousel de Bootstrap es un componente interactivo que muestra una serie de elementos, como imágenes o contenido promocional, en una presentación de diapositivas. Es altamente personalizable y fácil de implementar, ofreciendo controles de navegación y indicadores visuales para mejorar la experiencia del usuario. Se utiliza para destacar información importante de manera dinámica en un sitio web.
 
@@ -157,7 +158,7 @@ El Carousel de Bootstrap es un componente interactivo que muestra una serie de e
   </div>
 </div>
 ```
-## ¿Qué es un spinner de Bootstrap? Pon un ejemplo.
+## Spinner de Bootstrap:
 
 Un spinner de Bootstrap es un componente que muestra una animación de carga o espera en forma de un icono giratorio. Se utiliza para indicar que se está procesando una tarea o cargando contenido en la página. Es una manera visualmente atractiva de mantener informado al usuario sobre el progreso de una operación. Aquí tienes un ejemplo de cómo se ve un spinner de Bootstrap:
 
@@ -167,7 +168,7 @@ Un spinner de Bootstrap es un componente que muestra una animación de carga o e
 </div>
 ```
 
-## NavBar de Bootstrap
+## NavBar de Bootstrap:
 
 El NavBar de Bootstrap es un componente de navegación que proporciona una barra de navegación estilizada y responsiva para sitios web. Se utiliza para organizar enlaces y otros elementos de navegación, como botones y formularios, de manera clara y accesible. Es altamente personalizable y fácil de implementar, ofreciendo diferentes estilos y opciones de diseño para adaptarse a las necesidades de cada proyecto.
 
@@ -186,7 +187,7 @@ El NavBar de Bootstrap es un componente de navegación que proporciona una barra
   </div>
 </nav>
 ```
-## ¿Qué es un modal de Bootstrap? Pon un ejemplo
+## Modal de Bootstrap:
 
 Un modal de Bootstrap es un componente que muestra contenido adicional o interactivo superpuesto en la pantalla principal del sitio web. Se utiliza para mostrar información importante, solicitar confirmaciones del usuario o permitir interacciones específicas sin abandonar la página actual. Es una ventana emergente que captura la atención del usuario y proporciona una experiencia interactiva sin cambiar de contexto. Aquí tienes un ejemplo básico de cómo se ve un modal de Bootstrap:
 
@@ -216,7 +217,7 @@ Un modal de Bootstrap es un componente que muestra contenido adicional o interac
 </div>
 ```
 
-## Existen inputs para subir archivos en Bootstrap? Pon un ejemplo.
+## Inputs para subir archivos en Bootstrap:
 
 En Bootstrap existe un componente específico para subir archivos, conocido como Input de Archivos. Este componente permite a los usuarios seleccionar y cargar archivos desde su dispositivo. Aquí tienes un ejemplo básico de cómo implementar un input de archivos en Bootstrap:
 
@@ -228,7 +229,7 @@ En Bootstrap existe un componente específico para subir archivos, conocido como
 ```
 En este ejemplo, se crea un input de archivos utilizando la clase form-control para aplicar estilos de Bootstrap. Al hacer clic en el input, se abrirá un diálogo de selección de archivos estándar del navegador, lo que permite al usuario seleccionar uno o varios archivos para cargarlos. Este componente es útil para integrar fácilmente la funcionalidad de carga de archivos en formularios o páginas web construidas con Bootstrap.
 
-## ¿Qué es un plugin scrollspy en Bootstrap? Pon un ejemplo.
+## Plugin scrollspy en Bootstrap:
 
 Un plugin Scrollspy de Bootstrap es una función que permite resaltar automáticamente los elementos de navegación activos a medida que el usuario desplaza la página. Esto proporciona una experiencia de navegación más fluida y facilita la comprensión de la posición del usuario en el contenido de la página. Aquí tienes un ejemplo básico de cómo se implementa el Scrollspy en Bootstrap:
 
