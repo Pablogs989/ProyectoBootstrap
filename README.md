@@ -257,3 +257,14 @@ Un plugin Scrollspy de Bootstrap es una función que permite resaltar automátic
 ```
 
 En este ejemplo, el plugin Scrollspy de Bootstrap se activa mediante el uso del atributo data-bs-spy="scroll" en el <body> y en el contenedor del contenido. Se especifica el objetivo del Scrollspy mediante el atributo data-bs-target, que apunta al elemento de navegación (en este caso, el navbar con el id navbar-example). Cuando el usuario desplaza la página, el Scrollspy resaltará automáticamente el enlace de navegación correspondiente a la sección visible. Esto facilita la navegación del usuario, especialmente en páginas largas con múltiples secciones.
+
+## Informacion extra: Display
+Hemos utilizado el display para poder mostrar o ocultar partes del html utilizando la logica del JS con estas dos propiedades:
+- **d-none:** Oculta un elemento en todas las resoluciones de pantalla.
+```html
+<div class="d-block d-sm-none">Este elemento es visible en pantallas pequeñas, pero oculto en pantallas medianas y más grandes.</div>
+```
+- **d-block:** Muestra un elemento como un elemento de bloque
+```html
+<div class="d-none d-md-block">Este elemento está oculto en pantallas pequeñas, pero visible en pantallas medianas y más grandes.</div>
+```
