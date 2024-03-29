@@ -1,25 +1,14 @@
-const alerta = document.querySelector('.alert')
-
+const alerta = document.querySelector('.alert');
 const form = document.querySelector('form')
-
-
 const cardUser = document.querySelector('.card-title-name');
 const cardEmail = document.querySelector('.card-text-email')
 const container = document.querySelector('.container')
 
 let usersArray = JSON.parse(localStorage.getItem('users')) || [];
 
-// function readUsers() {
-//     for (const user of usersArray) {
-//         container.innerHTML += `
-//         <div class="card" style="width: 18rem;">
-//             <div class="card-body">
-//                 <h5 class="card-title card-title-name">${user.name}</h5>
-//                 <p class="card-text card-text-email">${user.email}</p>
-//             </div>
-//         </div>`;
-//     }
-// }
+if (window.location.href.includes('crearUsuario.html')) {
+    alerta.style.display = 'none';
+}
 
 function validacionCamposVacios() {
     let user = {
@@ -75,43 +64,50 @@ function createUser(e) {
         email: document.getElementById("correo").value,
         password: document.getElementById("contraseña").value,
     }
-    
+
     if (validacionCamposVacios()) {
         if (validarCorreo()) {
-            
+
             if (validarContra()) {
                 alerta.innerHTML = 'Usuario creado correctamente'
+
                 usersArray.push(user);
                 localStorage.setItem("users", JSON.stringify(usersArray));
-                
+
                 setTimeout(() => {
                     alerta.innerHTML = '';
                     window.location.href = "index.html";
+
                 }, 3000);
-                
+
             } else {
+
                 alerta.innerHTML = 'contraseña incorrecta'
+                alerta.style.display = 'block';
                 setTimeout(function () {
                     alerta.innerHTML = " ";
+                    alerta.style.display = 'none'
                 }, 3000);
             }
-            
+
         } else {
+            alerta.style.display = 'block';
             alerta.innerHTML = 'correo incorrecto'
             setTimeout(function () {
                 alerta.innerHTML = " ";
+                alerta.style.display = 'none'
             }, 3000);
         }
-        
+
     } else {
-        alerta.innerHTML = 'campo vacio'
+        alerta.style.display = 'block';
+        alerta.innerHTML = 'Campo vacio'
         setTimeout(function () {
             alerta.innerHTML = " ";
+            alerta.style.display = 'none'
         }, 3000);
     }
-    
-}
-//readUsers()
 
+}
 
 form.addEventListener('submit', createUser);

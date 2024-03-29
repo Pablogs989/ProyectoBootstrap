@@ -1,0 +1,26 @@
+.form-container {
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+#alert {
+    margin-top: 20px;
+}
