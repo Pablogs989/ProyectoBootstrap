@@ -70,7 +70,7 @@ function createUser(e) {
 
             if (validarContra()) {
                 alerta.innerHTML = 'Usuario creado correctamente'
-
+                alerta.style.display = 'block';
                 usersArray.push(user);
                 localStorage.setItem("users", JSON.stringify(usersArray));
 
